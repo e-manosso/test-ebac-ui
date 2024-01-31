@@ -17,7 +17,9 @@
     "url": "https://github.com/e-manosso/test-ebac-ui/issues"
   },
   "homepage": "https://github.com/e-manosso/test-ebac-ui#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "^5.5.3"
+  },
   "dependencies": {
     "cypress": "^8.7.0"
   }
