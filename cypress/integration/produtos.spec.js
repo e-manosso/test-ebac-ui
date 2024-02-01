@@ -26,4 +26,18 @@ describe('Funcionalidade pagina de produtos', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Ariel Roll Sleeve Sweatshirt” foram adicionados no seu carrinho.')
     });
+
+    it('Deve adicionar produtos ao carrinho - Usando Comandos Customizados', () => {
+        var quantidade1 = 5
+        cy.addProdutos('Abominable Hoodie','XL','Green',quantidade1)
+        cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade1)
+        cy.get('.woocommerce-message').should('contain', quantidade1 + ' × “Abominable Hoodie” foram adicionados no seu carrinho.')
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando Comandos Customizados', () => {
+        var quantidade2 = 2
+        cy.addProdutos('Ariel Roll Sleeve Sweatshirt','L','Green',quantidade2)
+        cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade2)
+        cy.get('.woocommerce-message').should('contain', quantidade2 + ' × “Ariel Roll Sleeve Sweatshirt” foram adicionados no seu carrinho.')
+    });
 });
