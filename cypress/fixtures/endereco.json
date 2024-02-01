@@ -1,0 +1,43 @@
+[
+    {
+        "nome": "Ana",
+        "sobrenome": "Julia",
+        "empresa": "Sol",
+        "pais": "Brasil",
+        "endereco": "Av. Brasil",
+        "numero": "6548",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "01010221",
+        "telefone": "11998877445",
+        "email": "anajulia@teste.com"
+    },
+
+    {
+        "nome": "Carol",
+        "sobrenome": "Dantas",
+        "empresa": "Ponto Frio",
+        "pais": "Brasil",
+        "endereco": "Av. Guanabara",
+        "numero": "587",
+        "cidade": "Rio de Janeiro",
+        "estado": "Rio de Janeiro",
+        "cep": "20201357",
+        "telefone": "21996574445",
+        "email": "carolzinhad@teste.com"
+    },
+
+    {
+        "nome": "Julio",
+        "sobrenome": "Faria",
+        "empresa": "Porto",
+        "pais": "Brasil",
+        "endereco": "Rua da Silva",
+        "numero": "247",
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "cep": "69874220",
+        "telefone": "31989730445",
+        "email": "f-julio@teste.com"
+    }
+]
